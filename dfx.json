@@ -8,8 +8,12 @@
       "dependencies": [
         "todo_app_backend"
       ],
+      "frontend": {
+        "entrypoint": "src/todo_app_frontend/src/index.html"
+      },
       "source": [
-        "src/todo_app_frontend/assets"
+        "src/todo_app_frontend/assets",
+        "dist/todo_app_frontend/"
       ],
       "type": "assets"
     }
@@ -20,6 +24,5 @@
       "packtool": ""
     }
   },
-  "output_env_file": ".env",
   "version": 1
 }

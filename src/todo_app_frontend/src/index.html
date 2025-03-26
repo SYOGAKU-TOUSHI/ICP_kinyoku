@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>禁欲カウンター (謎の倍増仕様?)</title> <!-- タイトルも少し変更 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>禁欲カウンター</h1>
+        <p>～ 謎の倍増と共に高みを目指そう？ ～</p> <!-- サブタイトル変更 -->
+    </header>
+
+    <main>
+        <section class="description">
+            <h2>なぜ禁欲なのか？</h2>
+            <p>
+                日々の小さな自制は、集中力の向上、自己肯定感の強化、そして新たな時間の創出へと繋がります。
+                このカウンターは、そんなあなたの努力を（匿名で）記録し、同じ目標を持つ仲間がいることを可視化します。
+            </p>
+            <p>
+                今日、目標を達成できたなら、ボタンを押してその一歩を刻みましょう！
+                <br><small>（なぜか気合が入りすぎて <strong>+2</strong> されちゃうかもしれないけど、気にしない！）</small> <!-- 注釈追加 -->
+            </p>
+        </section>
+
+        <section class="counter-section">
+            <h2>現在の総達成パワー:</h2> <!-- 見出し変更 -->
+            <div id="count-display">Loading...</div>
+            <!-- ボタンテキスト変更 -->
+            <button id="increment-button">達成！ (+2 ?)</button>
+        </section>
+    </main>
+
+    <footer>
+        <!-- 注意書き変更 -->
+        <p><small>※これは自己申告制のカウンターです。正直な心でクリックしましょう。(倍増は仕様です)</small></p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
